@@ -1,0 +1,75 @@
+.menu-mobail{
+    position: fixed;
+    top: 0;
+    left: 0;
+    // padding: 32px;
+    background-color: #ffffff;
+    color: #212121;
+    padding-top: 48px;
+    padding-left: 40px;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(-101%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-mobail.is-open{
+    transform: translateX(0);
+
+}
+.menu-mobail__button{
+    position: absolute;
+    background-color: #ffffff;
+    top: -5px;
+    right: -10px;
+    margin: 0;
+}
+.menu-mobail__link{
+    font-size: 40px;
+    &:hover,
+    &:focus{
+        color:var(--changes-color) ;
+    }
+}
+.menu-mobail__block{
+     margin-bottom: 302px;
+    
+}
+.menu-mobail__center{
+    position: absolute;
+}
+.menu-mobail__block li{
+    margin-bottom: 32px;
+}
+.menu-mobail__social{
+    display: flex;
+    color:var(--changes-color) ;
+    font-size: 18px;
+   
+
+}
+.menu-mobail__social li{
+    
+    // border-right: 1px solid rgba(33, 33, 33, 0.2) ;
+    margin-right: 10px;
+    
+    &:last-child{
+        border-right: none;
+        margin-right:0;
+    }
+   
+
+}
+.menu-mobail__tel{
+    display: block;
+    color:var(--changes-color) ;
+    font-size: 34px;
+    margin-bottom: 32px;
+
+}
+.menu-mobail__mail{
+    display: block;
+    font-size: 24px;
+    color: var(--paragraph-color);
+    margin-bottom: 32px;
+}
