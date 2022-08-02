@@ -1349,6 +1349,8 @@ textarea {
   display: flex;
   color: var(--changes-color);
   font-size: 18px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .menu-mobail__social li {

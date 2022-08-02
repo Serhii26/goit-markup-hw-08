@@ -149,7 +149,18 @@
                 <h2 class="team__title">Наша команда</h2>
                   <ul class="team-card team__team-card">
                    <li class="team-card__people"> 
-                    <img class="team-card__picture" src="./images/studio/img_1.jpg" alt="Игорь Демьяненко" width="270"> 
+                    <img 
+                    class="team-card__picture" 
+                    srcset="
+                    ./images/studio/img1_480@2x.jpg 2x,
+                    ./images/studio/img1_768@2x.jpg 2x,
+                    ./images/studio/img_768.jpg,
+                     ./images/studio/img1_1200.jpg 1x,
+                     ./images/studio/img1_1200@2x.jpg 2x,
+                    "
+                   
+                    src="./images/studio/img1_480.jpg" 
+                    alt="Игорь Демьяненко" width="270"> 
                     <div class="team-card__img">
                         <h3 class="team-card__text">Игорь Демьяненко</h3>
                          <p class="team-card__paragraph">Product Designer</p>
@@ -187,7 +198,10 @@
                    </li>
                     
                 <li class="team-card__people"> 
-                    <img class="team-card__picture" src="./images/studio/img_2.jpg" alt="Ольга Репина" width="270"> 
+                    <img class="team-card__picture"
+                    
+                     src="./images/studio/img_2.jpg" 
+                     alt="Ольга Репина" width="270"> 
                     <div  class="team-card__img"> 
                         <h3 class="team-card__text">Ольга Репина</h3> 
                         <p class="team-card__paragraph">Frontend Developer</p>
