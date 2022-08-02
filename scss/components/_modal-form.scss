@@ -1,5 +1,8 @@
 
+
 .modal-form__block{
+    
+
     padding: 0 40px;
 }
 
@@ -24,7 +27,8 @@
 
     & textarea{
         padding: 12px 16px;
-        height: 120px;
+        height: 100%;
+        max-height: 120px;
         }
 }
 

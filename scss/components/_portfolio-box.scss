@@ -41,12 +41,7 @@ margin-top: 50px;
 
         }
 }
-// .portfolio-box__link:nth-child(2n+2){
-//     margin-right: 0px;
-//     }
-// @media screen and (min-width: 1200px){
 
-// }
 
 .portfolio-box__modal{
     position: relative; 
@@ -54,7 +49,7 @@ margin-top: 50px;
 }
 
 .portfolio-box__description {
-    padding: 20px 0px;
+    padding: 20px 24px;
     border: 1px solid var(--fon-color);
 }
 

@@ -969,13 +969,26 @@ textarea {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  width: 528px;
   max-height: 581px;
   height: 100%;
   background: var(--fon-color);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+}
+@media screen and (max-width: 767px) {
+  .modal {
+    width: 100%;
+    max-width: 450px;
+    margin: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .modal {
+    width: 100%;
+    max-width: 528px;
+    margin: 0;
+  }
 }
 
 .modal__button {
@@ -1035,7 +1048,8 @@ textarea {
 }
 .modal-form__link textarea {
   padding: 12px 16px;
-  height: 120px;
+  height: 100%;
+  max-height: 120px;
 }
 
 .modal-form__input {
@@ -1234,7 +1248,7 @@ textarea {
 }
 
 .portfolio-box__description {
-  padding: 20px 0px;
+  padding: 20px 24px;
   border: 1px solid var(--fon-color);
 }
 
@@ -1286,8 +1300,8 @@ textarea {
   padding-left: 40px;
   width: 100vw;
   height: 100vh;
-  -webkit-transform: translateX(-101%);
-          transform: translateX(-101%);
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
   -webkit-transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1305,6 +1319,9 @@ textarea {
   top: -5px;
   right: -10px;
   margin: 0;
+}
+.menu-mobail__button:hover, .menu-mobail__button:focus {
+  fill: var(--changes-color);
 }
 
 .menu-mobail__link {
@@ -1337,9 +1354,18 @@ textarea {
 .menu-mobail__social li {
   margin-right: 10px;
 }
+.menu-mobail__social li::after {
+  content: "";
+  margin-left: 10px;
+  border-right: 2px solid rgba(33, 33, 33, 0.2);
+}
 .menu-mobail__social li:last-child {
   border-right: none;
   margin-right: 0;
+}
+.menu-mobail__social li:last-child::after {
+  content: "";
+  border-right: none;
 }
 
 .menu-mobail__tel {
