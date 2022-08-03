@@ -1,13 +1,19 @@
 .footer {
     background-color: #2F303A; 
     padding-top: 60px;
-    padding-bottom: 60px;
-   
+    @media(max-width: 1199px){
+        padding-bottom: 60px;
+
+    }
+    
+       
 }
 .footer__tablet{
-    @media(min-width: 480px){
-        display: flex;
-        justify-content: space-between;
+    @media(min-width: 768px){
+         display: flex;
+         justify-content: space-between;
+        //  padding-left: 76px;
+        //  padding-right: 89px;
 
     }
     
@@ -19,6 +25,10 @@
 }
 .footer__block{
     text-align: center;
+    @media(min-width: 1200px){
+        text-align: start;
+    }
+
     
 }
 .footer .nav__line{
@@ -44,9 +54,13 @@
 
 
 .logo__footer-address{
-    // margin-top: 20px;
+   
     text-align: center;
     margin-top: 20px;
+    @media(min-width: 1200px){
+        text-align: start;
+    }
+
 }
 
 .footer-address__link{

@@ -7,6 +7,7 @@
     color: #212121;
     padding-top: 48px;
     padding-left: 40px;
+    font-weight: 500;
     width: 100vw;
     height: 100vh;
     transform: translateX(-200%);
@@ -33,6 +34,7 @@
 
 .menu-mobail__link{
     font-size: 40px;
+    
     &:hover,
     &:focus{
         color:var(--changes-color) ;
@@ -81,7 +83,9 @@
     display: block;
     color:var(--changes-color) ;
     font-size: 34px;
+    
     margin-bottom: 32px;
+
 
 }
 .menu-mobail__mail{

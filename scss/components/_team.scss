@@ -1,5 +1,8 @@
 .section__team{
     background-color:#F5F4FA;
+    @media screen and (max-width: 1199px){
+        padding-bottom: 60px;
+    }
 }
 
 .team__title {
@@ -14,22 +17,23 @@
 
 .team-card{
     margin-top: 30px;
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 767px) {
         display: flex;
         flex-wrap: wrap;
         margin: 0, -15px;
-        margin-top: 30px;
         width: 100%;
         justify-content: center;
         align-items: center;
     }
     @media screen and (min-width: 768px) {
-        display: flex;
+        
     justify-content: space-between;
+    
        
     }
     @media screen and (min-width: 1200px){
         flex-wrap: nowrap;
+        margin-top: 50px;
     }
     
     
@@ -75,13 +79,7 @@
 }
 
 
-.team__team-card{
-    @media screen and (max-width: 1200px){
-        margin-top: 50px;
 
-    }
-    
-}
 
 .team__card-social{
     margin-top: 16px;

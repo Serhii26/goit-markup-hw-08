@@ -1,6 +1,9 @@
 .footer-social{
-    margin-left: 70px;
-    margin-right: 93px;
+    @media(min-width: 1200px){
+        margin-left: 70px;
+
+    }
+   
 }
 
 .footer-social__text{
@@ -9,7 +12,10 @@
     color: var(--fon-color);
     text-transform: uppercase;
     margin-bottom: 20px;
-    text-align: center;
+    text-align:center;
+    @media(min-width: 1200px){
+        text-align: start;
+    }
 }
 .footer-social__card-social{
     margin-bottom: 60px;

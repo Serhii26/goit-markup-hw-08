@@ -117,7 +117,7 @@
         </section>
     
     
-        <section class="section">
+        <section class="section section__debvelopment">
             <div class="conteiner development">
                 <h2 class="development__title">Чим ми займаємося</h2>
             <ul class="development-card development__development-card">
@@ -147,7 +147,7 @@
         <section class=" section section__team">
             <div class="conteiner team">
                 <h2 class="team__title">Наша команда</h2>
-                  <ul class="team-card team__team-card">
+                  <ul class="team-card ">
                    <li class="team-card__people"> 
                     <img 
                     class="team-card__picture" 
@@ -312,7 +312,7 @@
         </section>
 
 
-        <section class="section">
+        <section class="section section__client">
             <div class="conteiner client">
                 <h2 class="team__title"> Постійні клієнти</h2>
             <ul class="client__icon">
@@ -470,8 +470,9 @@
             
                 <form class="modal-form">
                     <h2 class="modal-form__text">Залиште свої дані, ми вам передзвонимо</h2>
-                    <fieldset>
+                    
                         <div class="modal-form__block">
+                            <fieldset></fieldset>
                             <div class="modal-form__lable">
                                 <label for="modal-name">Ім'я</label>
                                 <div class="modal-form__link">
@@ -506,17 +507,18 @@
                                 <label for="modal-comint">Комментарий</label>
                                 <textarea class=" modal-form__input " name="modal-comint" id="modal-comint" cols="30" rows="10" placeholder="Введите текст"></textarea>
                             </div>
+                            
                     </fieldset>
                     
-                    <div class="modal-form__terms" >
+                            <div class="modal-form__terms" >
                         <label class="modal-form__chekbox" for="contract"> 
                             <input class="modal-form__chekbox-input" type="checkbox" name="contract" id="contract" >
                             <svg class="modal-form__chekbox-svg" width="16px" height="15px"> 
                                 <use href="./images/icon_check.svg"> </use>
                             </svg>Погоджуюся з розсилкою та приймаю   <span class="modal-form__chekbox-text"> Умови договору</span>
                         </label>
-                    </div>
-                    <button class="modal-form__chekbox-button" type="submit">Відправити</button>
+                            </div>
+                            <button class="modal-form__chekbox-button" type="submit">Відправити</button>
                     </div>
                 </form>
             </div>

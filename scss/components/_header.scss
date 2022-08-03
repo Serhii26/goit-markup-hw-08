@@ -2,15 +2,14 @@
     padding-left: 15px;
     padding-right: 10px;
     margin: 0 auto;
+    border-bottom: 1px solid #ECECEC;
     @media(max-width: 767px){
         width: 100%;
         max-width: 767px;
     }
-    
     @media screen and (min-width: 768px){
         display: flex;
         justify-content: space-between;
         padding: 0;
-
     }
 }
