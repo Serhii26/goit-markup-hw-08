@@ -12,9 +12,16 @@
         justify-content: center;
         // width: 100%;
         margin:0 -15px;
-        margin-top: 50px;
+        margin-top: 30px;
+        
+        @media(max-width: 1199px){
+            
+        }
+
         @media(min-width: 1200px){
             flex-wrap: nowrap;
+            margin-top: 50px;
+           
                     
          }
        
@@ -36,6 +43,9 @@
      margin-right: 30px;
      &:nth-child(3n+3){
         margin-right: 0px;
+     }
+     &:nth-child(n+4){
+        margin-bottom: 0px;
      }
      
 }

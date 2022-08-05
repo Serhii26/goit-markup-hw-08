@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
      justify-content: center;
+     align-items: center;
     width: 100%;
     // max-width: 470px;
     margin: 0 auto;
@@ -31,10 +32,13 @@
 
     }
     @media screen and (min-width: 768px){
+        margin: 0 auto;
         margin-top: 14px;
+
     }
     @media screen and (min-width: 1200px){
-        margin-top: 50px;
+        margin: 0 auto;
+        margin-top: 34px;
     }
     
     
@@ -54,19 +58,30 @@
 
    
 
-    &:nth-child(n+7){
+    &:nth-child(n+9){
                 margin-bottom: 0px;
                 }
     @media screen and (min-width: 768px){
         width: calc((100% - 2 * 30px) / 2) ;
         margin-right: 30px;
+        &:nth-child(2n+2){
+            margin-right: 0px;
+        }
         
         }
         @media screen and (min-width: 1200px){
             width: calc((100% - 3 * 30px) / 3) ;
-
+            &:nth-child(n+1){
+                margin-right: 30px;
+            }
+            &:nth-child(3n+3){
+                margin-right: 0px;
+            }  
+          
+            }
+       
         }
-}
+
 
 
 .portfolio-box__modal{
@@ -77,6 +92,7 @@
 .portfolio-box__description {
     padding: 20px 24px;
     border: 1px solid #eeeeee;
+    margin-top: -5px;
 }
 
 .portfolio-box__paragraph{

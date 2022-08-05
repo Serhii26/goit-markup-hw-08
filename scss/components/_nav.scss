@@ -59,12 +59,18 @@
      color:var(--changes-color); 
      fill: var(--changes-color);
           }
-    @media screen and (min-width: 1200px){}      
+          
           
 }
 .nav__contakt .nav__button{
     padding: 0;
-    padding-top: 15px;
+    padding-top: 10px;
+    @media screen and (max-width: 1199px){
+        &:first-child{
+        padding-top: 0px;
+    }}
+
+
 }
 
 .nav__contakt {
@@ -76,7 +82,8 @@
 
         display: flex;
         flex-wrap: wrap;
-        margin:21px 0px 21px 96px;
+        margin:21px 0px 0px 96px;
+        padding-bottom: 21px;
     
     }    
 
