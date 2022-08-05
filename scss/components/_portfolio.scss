@@ -10,6 +10,7 @@
     @media screen and (min-width: 768px){
         justify-content: center;
     }
+    
 
 }
 
@@ -34,6 +35,8 @@
     background-color:var(--changes-color);
     color:var(--fon-color) ;
           }
+    
+
 }
 
 .portfolio-block__button,.pointer {cursor: pointer;}; 
@@ -41,6 +44,10 @@
 .portfolio-block .portfolio-block__button{
         display: block;
         padding: 6px 22px;
+     @media screen and (min-width: 1200px){
+            margin-top: 0px;
+            
+        }
         
 }
 .portfolio-block .portfolio-block__button :last-child {

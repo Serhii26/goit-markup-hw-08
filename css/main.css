@@ -470,6 +470,7 @@ textarea {
 @media screen and (min-width: 1200px) {
   .feature__blok {
     margin-right: 30px;
+    margin-bottom: 0;
     width: 100%;
   }
 }
@@ -604,6 +605,7 @@ textarea {
 @media screen and (min-width: 1200px) {
   .team__title {
     font-size: 36px;
+    padding-top: 94px;
   }
 }
 
@@ -638,7 +640,7 @@ textarea {
   .team-card {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
-    margin-top: 50px;
+    margin-top: 94px;
   }
 }
 
@@ -659,6 +661,7 @@ textarea {
 @media screen and (min-width: 1200px) {
   .team-card__people {
     width: 100%;
+    margin-bottom: 0px;
   }
 }
 
@@ -922,6 +925,7 @@ textarea {
 @media (min-width: 1200px) {
   .footer-social {
     margin-left: 70px;
+    margin-right: 93px;
   }
 }
 
@@ -1262,6 +1266,11 @@ textarea {
   display: block;
   padding: 6px 22px;
 }
+@media screen and (min-width: 1200px) {
+  .portfolio-block .portfolio-block__button {
+    margin-top: 0px;
+  }
+}
 
 .portfolio-block .portfolio-block__button :last-child {
   margin-left: 0px;
@@ -1309,7 +1318,7 @@ textarea {
 }
 @media screen and (min-width: 1200px) {
   .portfolio__porfolio-box {
-    margin-top: 34px;
+    margin-top: 50px;
   }
 }
 
