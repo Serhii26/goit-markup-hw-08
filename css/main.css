@@ -1517,14 +1517,6 @@ textarea {
   color: var(--changes-color);
 }
 
-.menu-mobail__block {
-  margin-bottom: 302px;
-}
-
-.menu-mobail__center {
-  position: absolute;
-}
-
 .menu-mobail__block li {
   margin-bottom: 32px;
 }

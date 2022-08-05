@@ -1,3 +1,4 @@
+
 .menu-mobail{
     position: fixed;
     top: 0;
@@ -12,6 +13,7 @@
     height: 100vh;
     transform: translateX(-200%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .menu-mobail.is-open{
@@ -40,14 +42,9 @@
         color:var(--changes-color) ;
     }
 }
-.menu-mobail__block{
-     margin-bottom: 302px;
-    
-}
-.menu-mobail__center{
-    position: absolute;
+
    
-}
+
 .menu-mobail__block li{
     margin-bottom: 32px;
 }
