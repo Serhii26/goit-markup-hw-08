@@ -60,6 +60,10 @@
 .modal-form__terms{
     margin-top: 20px;
     margin-bottom: 30px;
+    @media screen and (max-width: 1199px){
+        font-size: 12px;
+    }
+    
 }
 
 .modal-form__chekbox{

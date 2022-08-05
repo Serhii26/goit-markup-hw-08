@@ -82,15 +82,24 @@
 
         display: flex;
         flex-wrap: wrap;
-        margin:21px 0px 0px 96px;
-        padding-bottom: 21px;
-    
+        margin:21px 0px 21px 96px;
     }    
 
     
 }
 .nav__icon{
     margin-right: 10px;
+}
+.nav__contakt .nav__line{
+    @media screen and (max-width: 1199px){
+
+        margin-bottom: 10px;
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+
+   
 }
 
 
