@@ -17,6 +17,10 @@
         justify-content: space-between;
         padding: 0;
     }
+    @media screen and (min-width: 1200px){
+        justify-content: space-around;
+    }
+
 }
 .header .nav__contakt{
     font-size: 12px;

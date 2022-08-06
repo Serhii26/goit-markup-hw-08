@@ -169,6 +169,12 @@ textarea {
     padding: 0;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header__conteiner {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 
 .header .nav__contakt {
   font-size: 12px;
@@ -314,6 +320,17 @@ textarea {
             justify-content: center;
   }
 }
+@media screen and (min-width: 1200px) {
+  .nav__contakt {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
 
 .nav__icon {
   margin-right: 10px;
@@ -333,7 +350,7 @@ textarea {
 
 @media screen and (min-width: 1200px) {
   .nav__contakt .nav__line + .nav__line {
-    margin-left: 50px;
+    margin-left: 30px;
   }
 }
 
