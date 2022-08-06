@@ -149,7 +149,6 @@ textarea {
 }
 
 .header__conteiner {
-  padding: 21px 15px;
   margin: 0 auto;
 }
 @media (max-width: 767px) {
