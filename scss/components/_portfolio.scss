@@ -16,6 +16,7 @@
     justify-content: center;
     flex-wrap: wrap;
     justify-content: flex-start;
+    gap: 15px;
     @media screen and (min-width: 768px){
         justify-content: center;
     }
@@ -53,11 +54,9 @@
 .portfolio-block .portfolio-block__button{
         display: block;
         padding: 6px 22px;
-     @media screen and (min-width: 1200px){
-            margin-top: 0px;
+        margin-top: 0px;
             
-        }
-        
+       
 }
 .portfolio-block .portfolio-block__button :last-child {
         margin-left: 0px;
