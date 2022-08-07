@@ -1396,6 +1396,9 @@ textarea {
   .portfolio-box__link:nth-child(2n+2) {
     margin-right: 0px;
   }
+  .portfolio-box__link:nth-child(n+9) {
+    margin-bottom: 0px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .portfolio-box__link {
