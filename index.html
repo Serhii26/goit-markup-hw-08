@@ -122,32 +122,42 @@
                 <h2 class="development__title">Чим ми займаємося</h2>
             <ul class="development-card development__development-card">
                 <li class="development-card__product"> 
-                    <img 
-                    srcset="./images/studio/box1@2x.jpg 2x, 
-                            ./images/studio/box1.jpg" @media="(min-width: 1199px)"
-                    
-                    src="./images/studio/box_1.jpg" 
-                    alt="Создаем программный продукт" width="370">
+                    <picture>
+                        <source
+                        srcset="./images/studio/box1@2x.jpg 2x, 
+                            ./images/studio/box1.jpg" media="(min-width: 1199px)">
+                        <img 
+                        src="./images/studio/box_1.jpg" 
+                        alt="Створюємо програмний продукт"
+                     >
+                    </picture>
                     <div class="development-card__block">
                         <h3 > Десктопні додатки</h3>
                     </div>
                  </li>
                 <li class="development-card__product"> 
-                    <img 
-                    srcset="./images/studio/box2@2x.jpg 2x, 
-                            ./images/studio/box2.jpg" @media="(min-width: 1199px)"
+                    <picture>
+                        <source
+                        srcset="./images/studio/box2@2x.jpg 2x, 
+                            ./images/studio/box2.jpg" media="(min-width: 1199px)"
+                        >
+                        <img 
                     src="./images/studio/box2.jpg" 
-                    alt="Работа во всех типах устройств" width="370">
+                    alt="Работа во всех типах устройств" >
+                    </picture>
                     <div class="development-card__block">
                         <h3>Мобільні додатки</h3>
                     </div>
                 </li>
                 <li class="development-card__product"> 
-                    <img 
-                    srcset="./images/studio/box3@2x.jpg 2x, 
-                            ./images/studio/box3.jpg" @media="(min-width: 1199px)"
+                    <picture>
+                        <source
+                        srcset="./images/studio/box3@2x.jpg 2x, 
+                            ./images/studio/box3.jpg" media="(min-width: 1199px)">
+                        <img 
                     src="./images/studio/box3.jpg" 
                     alt="Работаем над цветокоррекцией" >
+                    </picture>
                     <div class="development-card__block">
                         <h3>Дизайнерські рішення</h3>
                     </div>
@@ -520,43 +530,45 @@
                     <h2 class="modal-form__text">Залиште свої дані, ми вам передзвонимо</h2>
                     
                         <div class="modal-form__block">
-                            <fieldset></fieldset>
-                            <div class="modal-form__lable">
-                                <label for="modal-name">Ім'я</label>
-                                <div class="modal-form__link">
-                                    <input class="modal-form__input" type="text" name="modal-name" id="modal-name">
-                                    <svg class="modal-form__icon" width="18px" height="18px">
-                                       <use href="./images/icon.svg#icon-person"> </use>
-                                    </svg>
+                            <fieldset>
+                                <div class="modal-form__lable">
+                                    <label for="modal-name">Ім'я</label>
+                                    <div class="modal-form__link">
+                                        <input class="modal-form__input" type="text" name="modal-name" id="modal-name">
+                                        <svg class="modal-form__icon" width="18px" height="18px">
+                                           <use href="./images/icon.svg#icon-person"> </use>
+                                        </svg>
+                                    </div>
                                 </div>
-                            </div>
-                        
-                            <div class="modal-form__lable">
-                                <label for="modal-phone">Телефон</label>
-                                <div class="modal-form__link">
-                                    <input class="modal-form__input" type="tel" name="modal-phone" id="modal-phone">
-                                    <svg class="modal-form__icon" width="18px" height="18px">
-                                    <use href="./images/icon.svg#icon-phone"> </use>
-                                 </svg>
-                                </div>
-                            </div>
-                        
-                            <div class="modal-form__lable">
-                                <label for="modal-email">Почта</label>
-                                <div class="modal-form__link">
-                                    <input class="modal-form__input" type="email" name="modal-email" id="modal-email">
-                                    <svg class="modal-form__icon" width="18px" height="18px">
-                                    <use href="./images/icon.svg#icon-email"> </use>
-                                 </svg>
-                                </div>
-                            </div>
-                        
-                            <div class="modal-form__link">
-                                <label for="modal-comint">Комментарий</label>
-                                <textarea class=" modal-form__input " name="modal-comint" id="modal-comint" cols="30" rows="10" placeholder="Введите текст"></textarea>
-                            </div>
                             
-                    </fieldset>
+                                <div class="modal-form__lable">
+                                    <label for="modal-phone">Телефон</label>
+                                    <div class="modal-form__link">
+                                        <input class="modal-form__input" type="tel" name="modal-phone" id="modal-phone">
+                                        <svg class="modal-form__icon" width="18px" height="18px">
+                                        <use href="./images/icon.svg#icon-phone"> </use>
+                                     </svg>
+                                    </div>
+                                </div>
+                            
+                                <div class="modal-form__lable">
+                                    <label for="modal-email">Почта</label>
+                                    <div class="modal-form__link">
+                                        <input class="modal-form__input" type="email" name="modal-email" id="modal-email">
+                                        <svg class="modal-form__icon" width="18px" height="18px">
+                                        <use href="./images/icon.svg#icon-email"> </use>
+                                     </svg>
+                                    </div>
+                                </div>
+                            
+                                <div class="modal-form__link">
+                                    <label for="modal-comint">Комментарий</label>
+                                    <textarea class=" modal-form__input " name="modal-comint" id="modal-comint" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                                </div>
+                            </fieldset>
+                            
+                            
+                   
                     
                             <div class="modal-form__terms" >
                         <label class="modal-form__chekbox" for="contract"> 
