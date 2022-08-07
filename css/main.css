@@ -168,12 +168,6 @@ textarea {
     padding: 0;
   }
 }
-@media screen and (min-width: 1200px) {
-  .header__conteiner {
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-  }
-}
 
 .header .nav__contakt {
   font-size: 12px;
@@ -1299,13 +1293,6 @@ textarea {
   }
 }
 
-.portfolio-block__link {
-  margin-right: 8px;
-}
-.portfolio-block__link:last-child {
-  margin-right: 0px;
-}
-
 .portfolio-block__button {
   color: var(--main-color);
   background-color: #F5F4FA;
@@ -1401,9 +1388,6 @@ textarea {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.portfolio-box__link:nth-child(n+9) {
-  margin-bottom: 0px;
-}
 @media screen and (min-width: 768px) {
   .portfolio-box__link {
     width: 354px;
@@ -1422,6 +1406,9 @@ textarea {
   }
   .portfolio-box__link:nth-child(3n+3) {
     margin-right: 0px;
+  }
+  .portfolio-box__link:nth-child(n+7) {
+    margin-bottom: 0px;
   }
 }
 
